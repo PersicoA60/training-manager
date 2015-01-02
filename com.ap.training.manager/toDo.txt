@@ -1,10 +1,16 @@
- 1. create a maven  web project and pom.xml insert correspondi libraries
+ r1:
+ 1. create a maven  web project and pom.xml insert corresponding libraries
  2. check all parameters java compiler, ServerFaces...
  3. check the WEB-INF/web.xml and add corresponding libraries  
  4. create the applicationContext.xml
  	4.1 oracle_ds-config.xml (database parameters)
  	4.2 webflow-config.xml
- 5. spring configuration: --> spring Elements > spring sets , spring webflow	
+ 5. spring configuration: --> spring Elements > spring sets , spring webflow
+ 
+ r2: 
+ 6. create css folder ; style.css; images
+ 7. create login-form
+ 	
  
  
  

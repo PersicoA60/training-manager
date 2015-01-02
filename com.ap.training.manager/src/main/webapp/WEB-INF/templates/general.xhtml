@@ -12,12 +12,15 @@
 	<h:head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title><ui:insert name="title" /></title>
-
+		<link rel="stylesheet" type="test/css"
+			href="#{request.contextPath}/resources/css/style.css" />
+		<link rel="shortcut icon"
+			href="#{request.contextPath}/resources/css/stadion.ico" />
 	</h:head>
 
 	<h:body>
 
-		<!-- <div id="container">
+		<div id="container">
 
 			<div id="header">
 				<h1>
@@ -26,7 +29,9 @@
 
 			</div>
 
-			<div id="line" />
+			<div id="line" >
+					<ui:insert name="line" />
+			</div>
 
 			<div id="content">
 				<ui:insert name="content" />
@@ -35,11 +40,7 @@
 				<ui:insert name="footer" />
 
 			</div>
-		</div> -->
-		
-		<h1> Web shopping + <ui:insert name="body"/> </h1>
-		
+		</div>
 	</h:body>
-
 </f:view>
 </html>
