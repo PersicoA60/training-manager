@@ -19,6 +19,12 @@
 	</h:head>
 
 	<h:body>
+		<p:ajaxStatus onstart="statusDialog.show();" onsuccess="statusDialog.hide();" />
+		
+		<p:dialog modal="true" widgetVar="statusDialog" header="Processing..."
+			draggable="true" closable="false">
+			<p:graphicImage value="/css/images/AjaxLoadingBar.gif"></p:graphicImage>
+		</p:dialog>
 
 		<div id="container">
 

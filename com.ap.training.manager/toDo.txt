@@ -4,12 +4,28 @@
  3. check the WEB-INF/web.xml and add corresponding libraries  
  4. create the applicationContext.xml
  	4.1 oracle_ds-config.xml (database parameters)
- 	4.2 webflow-config.xml
+ 	4.2 web flow-config.xml
  5. spring configuration: --> spring Elements > spring sets , spring webflow
  
  r2: 
- 6. create css folder ; style.css; images
+ 6. create css folder ; style.css; 
  7. create login-form
+ 
+ r3:
+ 8. images 
+ 9. insert into the head icon of the general.xhtml template
+ 10. primefaces component in the general.xhtml: ajaxstatus and  dialog 
+ 11. complete css file 
+ 12. Create the signUp.xthml form
+ 13. main-flow :
+ <view-state id="welcome" view="welcome.xhtml" >
+		<transition on="newUser" to="signUp" />
+	</view-state>
+	
+	<view-state id="signUp" view="signUp.xhtml" >
+		<transition on="backToSignIn" to="welcome" />
+	</view-state>
+ 
  	
  
  

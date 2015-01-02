@@ -14,9 +14,9 @@
 		<h:outputText value="Training-Manager" />
 	</ui:define>
 
-	<ui:define name="line">
+	<!-- <ui:define name="line">
 		<h:outputText value="menu-bar" />
-	</ui:define>
+	</ui:define> -->
 
 	<ui:define name="content">
 		<h:form id="loginForm">
@@ -53,7 +53,7 @@
 						value="Sign In" />
 
 					<p:commandButton id="newUserButton" action="newUser"
-						update="logPanelGrid,messages" icon="ui-icon-plus" value="Sign Up" />
+						immediate="true" icon="ui-icon-plus" value="Sign Up" />
 
 				</h:panelGrid>
 			</p:fieldset>
